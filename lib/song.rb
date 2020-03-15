@@ -10,6 +10,10 @@ class Song
     self.class.all << self
   end
 
+def create
+  
+end
+
   # def Song.find_or_create_by_name("Blank Space")
   # end
 
