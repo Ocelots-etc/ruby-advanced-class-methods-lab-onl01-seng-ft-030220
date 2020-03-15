@@ -14,7 +14,7 @@ def self.create(name, artist_name)
    song = self.new
    song.name = name
    song.artist_name = artist_name
-
+   @@all << song
 end
 
   # def Song.find_or_create_by_name("Blank Space")
