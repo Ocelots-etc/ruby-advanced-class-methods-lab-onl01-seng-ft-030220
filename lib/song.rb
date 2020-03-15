@@ -17,8 +17,8 @@ def self.create
    song
 end
 
-def self.new_by_name
-  song = song.name
+def self.new_by_name(name)
+  name
 end
   # def Song.find_or_create_by_name("Blank Space")
   # end
