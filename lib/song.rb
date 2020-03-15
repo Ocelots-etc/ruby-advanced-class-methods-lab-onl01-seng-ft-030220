@@ -14,7 +14,7 @@ def self.create
    song = self.new
    song.name = name
   #  song.artist_name = artist_name
-   self.all
+   @@all << song
    song
 end
 
