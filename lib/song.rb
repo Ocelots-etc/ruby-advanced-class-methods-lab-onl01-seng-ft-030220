@@ -12,6 +12,7 @@ class Song
 
 def self.create(name, artist_name)
 
+
 end
 
   # def Song.find_or_create_by_name("Blank Space")
