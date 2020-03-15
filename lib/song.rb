@@ -18,7 +18,7 @@ def self.create
 end
 
 def self.new_by_name
-  song.name = song.name.split(" ").join(" ")
+  song.name = song.name
 end
   # def Song.find_or_create_by_name("Blank Space")
   # end
